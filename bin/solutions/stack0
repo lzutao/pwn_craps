@@ -1,0 +1,2 @@
+$ py -c 'print "A"*65' |./stack0
+you have changed the 'modified' variable

